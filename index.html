@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata and page title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website - Kennedy Thomas</title>
+
+    <!-- Google Font for styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Header section with navigation menu -->
     <header>
         <nav>
             <ul>
-                <li><a href="#home" class="button">Home</a></li>
-                <li><a href="#projects" class="button">Projects</a></li>
-                <li><a href="#bio" class="button">Bio</a></li>
-                <li><a href="#resume" class="button">Resume</a></li>
-                <li><a href="#contact" class="button">Contact</a></li>
+                <li><a href="#home" class="button">🏠 Home</a></li>
+                <li><a href="#projects" class="button">💻 Projects</a></li>
+                <li><a href="#bio" class="button">☕ Bio</a></li>
+                <li><a href="#resume" class="button">📄 Resume</a></li>
+                <li><a href="#contact" class="button">📬 Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Main content section -->
     <main>
+        <!-- Home section -->
         <section id="home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Kennedy Thomas, a fourth-year computer science student at Samford University!</p>
+            <h1 class="animated-heading">Welcome to My Portfolio</h1>
+            <p style="text-align: center;">
+                Hi, I'm Kennedy Thomas, a fourth-year computer science student at Samford University!
+            </p>
         </section>
+
+        <!-- Projects section -->
         <section id="projects">
-            <h2>GitHub Projects</h2>
+            <h2 class="animated-heading">GitHub Projects</h2>
             <div id="project-list">
-                <!-- Projects will be listed here -->
+                <div class="project">
+                    <h3>🌐 Personal Website</h3>
+                    <p>Description: A responsive personal portfolio website showcasing my projects, bio, and contact information.</p>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                    <p><a href="https://github.com/knnthomas/personal-website" target="_blank">🔗 GitHub Repository</a></p>
+                </div>
+                <div class="project">
+                    <h3>📂 File Management System</h3>
+                    <p>Description: A file management system that allows users to upload, organize, and manage files efficiently.</p>
+                    <p><strong>Technologies Used:</strong> Python, Flask, SQLAlchemy</p>
+                    <p><a href="https://github.com/knnthomas/FileManagement" target="_blank">🔗 GitHub Repository</a></p>
+                </div>
+                <div class="project">
+                    <h3>🎓 Senior Seminar Demo</h3>
+                    <p>Description: A demo project created for a senior seminar, showcasing advanced concepts and techniques in software development.</p>
+                    <p><strong>Technologies Used:</strong> Java, Spring Boot, MySQL</p>
+                    <p><a href="https://github.com/knnthomas/senior-seminar-demo" target="_blank">🔗 GitHub Repository</a></p>
+                </div>
             </div>
         </section>
+
+        <!-- Bio section -->
         <section id="bio">
-            <h2>Professional Bio</h2>
-            <p>Hi there! I'm Kennedy Thomas, a fourth-year computer science student at Samford University, proficient in Python, Java, SQL, and C. I'm focused on building innovative solutions and diversifying the tech industry. I'm eager to apply my skills and collaborate with others to create inclusive, impactful, technology accessible to all. Let's connect!</p>
-            <a href="https://www.linkedin.com/in/knnthomas" target="_blank">Visit my LinkedIn</a>
+            <h2 class="animated-heading">Professional Bio</h2>
+            <p>
+                Hi there! I'm Kennedy Thomas, a fourth-year computer science student at Samford University, proficient in Python, Java, SQL, and C. I'm focused on building innovative solutions and diversifying the tech industry. I'm eager to apply my skills and collaborate with others to create inclusive, impactful, technology accessible to all. Let's connect!
+            </p>
+            <a href="https://www.linkedin.com/in/knnthomas" target="_blank">🔗 Visit my LinkedIn</a>
         </section>
+
+        <!-- Resume section -->
         <section id="resume">
-            <h2>Resume</h2>
-            <a href="file:///C:/Users/knnth/Downloads/Kennedy%20Thomas%20Resume%202025.pdf" download>Download My Resume</a>
+            <h2 class="animated-heading">Resume</h2>
+            <a href="assets/resume.pdf" download>📥 Download My Resume</a>
         </section>
+
+        <!-- Contact section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>School Email: kthoma17@samford.edu</p>
-            <p>Personal Email: knnthomas04@gmail.com</p>
-            <p>Socials: <a href="https://github.com/knnthomas">GitHub</a>, <a href="https://instagram.com/knnthomas">Instagram</a></p>
+            <h2 class="animated-heading">📬 Contact</h2>
+            <p>📧 School Email: kthoma17@samford.edu</p>
+            <p>📧 Personal Email: knnthomas04@gmail.com</p>
+            <p>🌐 Socials: <a href="https://github.com/knnthomas">🐙 GitHub</a>, <a href="https://instagram.com/knnthomas">📸 Instagram</a></p>
         </section>
     </main>
+
+    <!-- Footer section -->
     <footer>
-        <p>&copy; 2025 Kennedy Thomas. All rights reserved.</p>
+        <p style="text-align: center;">&copy; 2025 Kennedy Thomas. All rights reserved.</p>
     </footer>
+
+    <!-- Link to external JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
